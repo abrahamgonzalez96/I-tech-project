@@ -10,106 +10,117 @@
 	<link href ="https://fonts.googleapis.com/css2? family = Jura: wght @ 400; 700 & family = Raleway: ital, wght @ 1,400; 1,700 & display = swap "rel =" stylesheet ">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/pruebacss.css">
-	<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-	<link rel="manifest" href="/favicon/site.webmanifest">	
-	<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#04115a">
-	<link rel="shortcut icon" href="/favicon/favicon.ico">
-	<meta name="msapplication-TileColor" content="#000000">
-	<meta name="msapplication-config" content="/favicon/browserconfig.xml">
-	<meta name="theme-color" content="#313156">
 	<title>CONTACT</title>
 </head>
 <body class="fondo-contacto">
-	<header class="container-fluid-lg navbar-dark">
-		<nav class="navbar navbar-expand-lg">
-			<ul class="navbar-nav mr-auto">
-    			<a class="navbar-brand" href="index.html"><img src="imagenes-itech/logo2.png" alt=""></a>	
-			</ul>
-      		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navItechProject">
-    			<span class="navbar-toggler-icon"></span>
-  			</button>
+	<header>
+		<div class="container-fluid p-0 m-0">
 
-			<div class="collapse navbar-collapse" id="navItechProject">
-    			<ul class="navbar-nav ml-auto">
-      				<li class="nav-item">
-        				<a class="nav-link" href="index.html">Home</a>
-      				</li>
+			<nav class="navbar-dark bg-dark navbar navbar-expand-md">
 
-     				<li class="nav-item">
-      					<a class="nav-link" href="smartphones.html">Smartphones</a>
-      				</li>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navItechProject">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-      				<li class="nav-item">
-        				<a class="nav-link" href="about-us.html">About us</a>
-      				</li>
+				<div class="collapse navbar-collapse w-50" id="navItechProject">
 
-      				<li class="nav-item">
-        				<a class="nav-link" href="contact.html">Contact</a>
-      				</li>
-    			</ul>
-  			</div>
-		</nav>
+					<ul class="navbar-nav mr-auto">
+
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="smartphones.html">Smartphones</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="about-us.html">About us</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+					</ul>
+
+					<div class="m-auto w-25 d-none d-lg-block">
+						<a href="contact.html"><i class="fab fa-apple"></i></a>
+					</div>
+
+					<form class="form-inline d-inline">
+						<input class="form-control mr-auto" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn" type="submit"><i class="d-none d-sm-block fas fa-search"></i></button>
+					</form>
+				</div>
+			</nav>
+		</div>
 	</header>
-		<section class="container">
-			<div class="contacto-1">
-			<h3 class="bg-dark">Decinos en que podemos ayudarte</h3>
 
-			<form action="#" method="post" class="bg-dark">
+	<section class="formulario">
+		<div class="container">
+			<h3 class="my-5 text-center">Decinos en que podemos ayudarte</h3>
+			<form class="mt-5">
+				<div class="row">
+					<div class="col-sm-4 col-lg-4">
+						<label for="Nombre">Nombres</label>
+						<input id="Nombre" type="text" class="form-control" placeholder="..." required>
+					</div>
+					<div class="col-sm-4 col-lg-4">
+						<label for="Apellidos"> Apellidos</label>
+						<input id="Apellidos" type="text" class="form-control" placeholder="..." required>
+					</div>
 
-				<div>
-					<label for="fullname" class="fullname">Nombre y apellido</label>
-					<input type="text" name="fullname" id="fullname" placeholder="Nombre y apellido" maxlength="20" required="">
-				</div>
+					<div class="form-group col-sm-8 col-lg-8 mt-3">
+						<label for="email">Correo Electronico</label>
+						<input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+					</div>
 
-				<div>
-					<label for="email" class="email">Email</label>
-					<input type="email" name="email" id="email" placeholder="ejemplo@gmail.com" required="">
-				</div>
+					<div class="col-sm-8 col-lg-8 mt-3">
+						<select class="custom-select">
+							<option selected>Selecciona una opción...</option>
+							<option value="1">Consulta de precios al mayor</option>
+							<option value="2">Información de nuestra garantía </option>
+							<option value="3">lista de precios de smartphones</option>
+							<option value="4">Problemas con tu equipo</option>
+							<option value="5">Soporte Tecnico</option>
+							<option value="6">Envios y encomiendas</option>
+						</select>
+					</div>
 
-				<div>
-					<label for="interest">En que podemos ayudarte?</label>
-					<select name="interest" id="interest" required="">
-						<option value="1"> Soporte tecnico</option>
-						<option value="2"> Dudas sobre compras</option>
-						<option value="3">Quiero hacer la compra presencial</option>
-						<option value="4">Solicitar catologo de los productos</option>
-						<option value="5">Compre un producto y no llega</option>
-						<option value="6">Otro</option>
-					</select>
-				</div>
+					<div class="form-group col-sm-8 col-lg-8 mt-3">
+						<label for="textarea">Escribinos tu consulta</label>
+						<textarea class="form-control" id="textarea" rows="3" placeholder="..."></textarea>
+					</div>
 
-				<div>
-					<label for="comentarios"></label>
-					<textarea name="comentarios" id="comentarios" cols="50" rows="5" placeholder="Consulta"></textarea>
-				</div>
+					<div class="col-sm-6 col-lg-6 ml-4">
+						<input class="form-check-input" type="checkbox" value="" id="checkbox">
+						<label class="form-check-label" for="checkbox">Deseo recibir Newsletter</label>
+					</div>
 
-				<div>
-					<label>
-						<input value="true" type="checkbox" name="spam">Deseo recibir información sobre promciones en mi email
-					</label>
-				</div>
-				<div>	
-					<button type="Submit">Enviar</button>
-					<input type="reset" value="Limpiar">
-				</div>
-				</form>
-				</div>
-			</section>
+					<div class="col-sm-6 col-lg-6 mt-2">
+						<button class="btn bg-dark text-white" type="submit">Enviar</button>
+					</div>
 
-		<footer class="container-fluid contacto-2">
-		<div class="container d-flex justify-content-xl-between align-items-center">
-			<div>
-				<p>Todos los derechos del autor reservados.<br>Copyrigh &copy;</p>
-			</div>
-					
-			<div>
-				<a href="https://www.facebook.com"><img src="imagenes-itech/facebook.png"></a>
-				<a href="https://www.instagram.com/itechproyect/"><img src="imagenes-itech/instagram.png"></a></img>
+			</form>
+		</div>
+	</section>
+
+	<footer class="container-fluid px-0 mx-0 mt-5">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-10 col-lg-10 pt-2">
+					<p>Todos los derechos del autor reservados.<br>Copyrigh &copy;</p>
+				</div>
+						
+				<div class="col-2 col-xl-2">
+					<a href="https://www.facebook.com"><img src="imagenes-itech/facebook.png"></a>
+					<a href="https://www.instagram.com/itechproyect/"><img src="imagenes-itech/instagram.png"></a></img>
+				</div>
 			</div>
 		</div>
 	</footer>
+
+	<script src="https://kit.fontawesome.com/c28d5b3ab0.js" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 

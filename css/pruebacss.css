@@ -1,3 +1,12 @@
+/*navegacion*/
+.fa-apple {
+  font-size: 2rem;
+  color: white; }
+
+.fa-search {
+  color: white;
+  font-size: 1rem; }
+
 /*Index*/
 .titulos {
   font-size: 2rem;
@@ -6,14 +15,6 @@
 .titular {
   font-size: 3.5rem;
   color: darkblue; }
-
-.fa-apple {
-  font-size: 2rem;
-  color: white; }
-
-.fa-search {
-  color: white;
-  font-size: 1rem; }
 
 .fondo {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("..//imagenes-itech/logo-2.png");
@@ -135,40 +136,27 @@ body {
   margin-top: 2rem; }
 
 /*seccion contacto*/
-.contacto-1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .contacto-1 h3 {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    font-family: 'reboto', sans-serif;
-    font-weight: bold;
-    color: white;
-    border-radius: 25px;
-    border: 1px solid;
-    padding: .5rem 1rem .5rem 1rem; }
-  .contacto-1 form {
-    border: 1px solid;
-    border-radius: 30px;
-    color: white;
-    padding: 1rem;
-    margin-bottom: 0; }
-  .contacto-1 button {
-    border-radius: 20px;
-    padding: .3rem; }
-
-header, .contacto-2 {
-  background-color: black; }
-
 .fondo-contacto {
-  background-color: blue; }
+  background-color: white; }
+
+.formulario .form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #02024b;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(68, 87, 107, 0.25); }
+
+.formulario .custom-select:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #02024b;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(68, 87, 107, 0.25); }
 
 /*Pide de pagina*/
 footer {
   font-family: 'reboto', monospace;
   font-weight: normal;
   color: white;
-  background-color: darkblue;
+  background-color: #02024b;
   margin-top: 8rem; }
