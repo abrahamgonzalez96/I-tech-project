@@ -1,3 +1,10 @@
+.tipografia {
+  font-family: "reboto", sans-serif;
+  font-size: 1.2rem; }
+
+.bg-black {
+  background-color: black; }
+
 /*navegacion*/
 .fa-apple {
   font-size: 2rem;
@@ -21,13 +28,6 @@
   background-size: 430px 430px;
   background-repeat: no-repeat;
   background-position: center; }
-
-/*fondos*/
-body {
-  background-color: black; }
-
-.fondo-products {
-  background-color: black; }
 
 /*carousel seccion productos*/
 .productos h2 {
@@ -158,5 +158,4 @@ footer {
   font-family: 'reboto', monospace;
   font-weight: normal;
   color: white;
-  background-color: #02024b;
-  margin-top: 8rem; }
+  background-color: #02024b; }
