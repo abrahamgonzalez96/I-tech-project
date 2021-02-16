@@ -23,94 +23,8 @@
   font-size: 3.5rem;
   color: darkblue; }
 
-.fondo {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("..//imagenes-itech/logo-2.png");
-  background-size: 430px 430px;
-  background-repeat: no-repeat;
-  background-position: center; }
-
-/*carousel seccion productos*/
-.productos h2 {
-  color: white;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  text-align: center; }
-
-.productos img {
-  width: 40rem;
-  height: auto;
-  transform: translateX(15rem); }
-
-.productos ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center; }
-
-.productos li {
-  color: blue;
-  font-size: 1.2rem;
-  font-family: "reboto", monospace;
-  text-transform: uppercase;
-  font-weight: bold;
-  background-color: white;
-  display: inline-block;
-  margin-top: .5rem;
-  width: 25rem;
-  height: auto;
-  text-align: center; }
-
-#carousel-itech {
-  background-color: silver;
-  border-radius: 50px;
-  margin-top: 2rem;
-  margin-bottom: 2rem; }
-  #carousel-itech ol > li {
-    border: 0px;
-    border-radius: 100%;
-    width: 8px;
-    height: 8px; }
-  #carousel-itech li.active {
-    background-color: blue;
-    border: 0px;
-    border-radius: 100%;
-    width: 8px;
-    height: 8px; }
-  #carousel-itech img {
-    width: 10rem; }
-
-@media only screen and (max-width: 767px) {
-  .carousel-1 {
-    display: none; } }
-
-.carousel-2 {
-  display: none;
-  width: 18rem;
-  height: auto;
-  background-color: silver;
-  border-radius: 50px;
-  margin-top: 2rem;
-  margin-bottom: 2rem; }
-  .carousel-2 ol > li {
-    border: 0px;
-    border-radius: 100%;
-    width: 8px;
-    height: 8px; }
-  .carousel-2 li.active {
-    background-color: blue;
-    border: 0px;
-    border-radius: 100%;
-    width: 8px;
-    height: 8px; }
-  .carousel-2 img {
-    width: 17rem; }
-
-@media only screen and (max-width: 766px) {
-  .carousel-2 {
-    display: block; } }
-
-/*seccion conocenos*/
+/*seccion Smart Tech*/
+/*seccion nosotros*/
 .seccion-conocenos article {
   display: flex;
   justify-content: center;
@@ -131,24 +45,20 @@
   text-align: center;
   margin-top: 1rem; }
 
-.acordion {
-  margin-bottom: 2rem;
-  margin-top: 2rem; }
-
 /*seccion contacto*/
 .fondo-contacto {
   background-color: white; }
 
 .formulario .form-control:focus {
   color: #495057;
-  background-color: #fff;
+  background-color: white;
   border-color: #02024b;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(68, 87, 107, 0.25); }
 
 .formulario .custom-select:focus {
   color: #495057;
-  background-color: #fff;
+  background-color: white;
   border-color: #02024b;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(68, 87, 107, 0.25); }
