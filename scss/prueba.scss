@@ -2,8 +2,9 @@ $primary: white;
 $secondary: rgb(2, 2, 75);
 $especial: #6c757d;
 
+/*Margenes, tipografias y fondos*/
 .tipografia{
-	font-family: "reboto", sans-serif;
+	font-family: "raleway", sans-serif;
 	font-size: 1.2rem;
 	font-weight: bold;
 }
@@ -12,17 +13,75 @@ $especial: #6c757d;
 	background-color: black;
 }
 
-/*navegacion*/
+.mtop{
+	margin-top: 7rem;
+}
+
+.mtop2{
+	margin-top: 5rem;
+}
+
+.mbottom{
+	margin-bottom: 7rem;
+}
+
+.mbottom2{
+	margin-bottom: 5rem;
+}
+.mtb{
+	margin-top: 7rem;
+	margin-bottom: 7rem;
+}
+
+.mtb2{
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+/*Iconos*/
 .fa-apple{
 	font-size: 2rem;
 	color:$primary;
 }
+.fa-apple:hover{
+	color: $primary;
+	transform: scale(1.2,1.2);
+}
+
 
 .fa-search{
 	color: $primary;
-	font-size: 1rem;
+	font-size: 1.2rem;
 }
 
+
+.fa-facebook-square{
+	color: $primary;
+	font-size: 2rem;
+}
+.fa-facebook-square:hover{
+	color:$primary;
+	transform: scale(1.3,1.3);
+}
+
+
+.fa-instagram{
+	color: $primary;
+	font-size: 2rem;
+}
+.fa-instagram:hover{
+	color: $primary;
+	transform: scale(1.3,1.3);
+}
+
+
+.fa-envelope{
+	color: $primary;
+	font-size: 2rem;
+}
+.fa-envelope:hover{
+	color: $primary;
+	transform: scale(1.3,1.3);
+}
 
 /*Index*/
 .titulos{
@@ -35,16 +94,32 @@ $especial: #6c757d;
 	color: darkblue;
 }
 
-/*seccion Smart Tech*/
+.btn-color{
+	color:$primary;
+	background-color: darkblue;
+	font-family: 'jura'sans-serif;
+	font-size: 1.5rem;
+	letter-spacing: .15rem;
+	font-weight: bold;
+	border: 1px solid darkblue;
+	border-radius: 15px;
+	padding: .5rem;
+	margin-top: 2rem;
+}
 
-
+.btn-color:hover{
+	color:darkblue;
+	background-color:$primary ;
+}
 /*seccion nosotros*/
 .color-text-nosotros{
 	h2{
 		color:$primary;
 	}
-	h4{
-		color: $secondary;
+	h3{
+		font-weight: bold;
+		color: darkblue;
+		font-family: 'jura', sans-serif;
 	}
 }
 .list-none{
@@ -97,9 +172,14 @@ $especial: #6c757d;
 	}	
 }
 /*Pide de pagina*/
-footer{
-	font-family: 'reboto', monospace;
+.footer-style{
+	font-size: 1.2rem;
+	font-family: 'jura', monospace;
 	font-weight: normal;
 	color: white;
-	background-color: $secondary;
+	margin-top: 15rem;
+	img{
+		max-width: 50%;
+		height: auto;
+	}
 }
